@@ -5,7 +5,7 @@ from data_base import Database
 
 data_base = Database("Employee.db")
 root = Tk()
-root.title("Employee Management Software                                                                                                                                                                                                                                     ")
+root.title("Employee Management System                                                                                                                                                                                                                                    ")
 root.geometry("1920x1080+0+0")
 root.config(bg="#2c3e50")
 root.state("zoomed")
@@ -118,7 +118,7 @@ tv = ttk.Treeview(tree_frame, columns=(1, 2, 3, 4, 5), style="mystyle.Treeview")
 tv.heading("1", text="EId")
 tv.column("1", width=5)
 tv.heading("2", text="Name")
-tv.heading("3", text="contact")
+tv.heading("3", text="Contact")
 tv.heading("4", text="Email")
 tv.heading("5", text="DOJ")
 tv['show'] = 'headings'
